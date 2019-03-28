@@ -1,0 +1,233 @@
+{
+ 
+    "notes" : "c0",
+ 
+"csvs" : [
+    {
+        "sourceCsv"  : "eplustbl.csv", 
+        "fromReport" : "Annual Building Utility Performance Summary",
+        "fromTable"  : "End Uses",
+        "fromColumn" : "District Cooling [kWh]",
+        "fromRow"    : "Cooling",
+        "tableName"  : "Total_Cooling Demand",
+        "columnHeaders" : "Total cooling Annual Value [kWh]",
+        "usedInCalc" : true
+    },
+        {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Annual Building Utility Performance Summary",
+        "fromTable"  : "Utility Use Per Total Floor Area",
+        "fromColumn" : "District Cooling Intensity [kWh/m2]",
+        "fromRow"    : "HVAC",
+        "tableName"  : "Total_Cool_ED/Area",
+        "columnHeaders" : "Total cooling Annual Value [kWh/m2]",
+        "usedInCalc" : true
+    },
+         {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Demand End Use Components Summary",
+        "fromTable"  : "End Uses",
+        "fromColumn" : "District Cooling [W]",
+        "fromRow"    : "Cooling",
+        "tableName"  : "Total_Peak_Cool",
+        "columnHeaders" : "Peak Total Cooling [W]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Sensible Heat Gain Summary",
+        "fromTable"  : "Annual Building Sensible Heat Gain Components",
+        "fromColumn" : "HVAC Zone Eq & Other Sensible Air Cooling [kWh]",
+        "fromRow"    : "Total Facility",
+        "tableName"  : "Sens_Cool_ED",
+        "columnHeaders" : "Sens_Cooling Annual [kWh]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Sensible Heat Gain Summary",
+        "fromTable"  : "Peak Cooling Sensible Heat Gain Components",
+        "fromColumn" : "HVAC Zone Eq & Other Sensible Air Cooling [W]",
+        "fromRow"    : "Total Facility",
+        "tableName"  : "Sens_Cool_Peak",
+        "columnHeaders" : "[W]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Energy Meters",
+        "fromTable"  : "Annual and Peak Values - Cooling",
+        "fromColumn" : "Cooling Maximum Value [W]",
+        "fromRow"    : "Cooling:DistrictCooling",
+        "tableName"  : "DC_Fac_Peak",
+        "columnHeaders" : "[W]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Energy Meters",
+        "fromTable"  : "Annual and Peak Values - Cooling",
+        "fromColumn" : "Cooling Annual Value [kWh]",
+        "fromRow"    : "Cooling:DistrictCooling",
+        "tableName"  : "DC_Fac_ED",
+        "columnHeaders" : "[kWh]",
+        "usedInCalc" : true
+    },
+    
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "HVAC Sizing Summary",
+        "fromTable"  : "Zone Sensible Cooling",
+        "fromColumn" : "Calculated Design Load [W]",
+        "fromRow"    : "THERMAL ZONE 1",
+        "tableName"  : "Calc Des Load",
+        "columnHeaders" : "Calc Des Load [W]",
+        "usedInCalc" : true
+    },
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "HVAC Sizing Summary",
+        "fromTable"  : "Zone Sensible Cooling",
+        "fromColumn" : "User Design Load [W]",
+        "fromRow"    : "THERMAL ZONE 1",
+        "tableName"  : "User Design Load [W]",
+        "columnHeaders" : "User Design Load [W]",
+        "usedInCalc" : true
+    },
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "HVAC Sizing Summary",
+        "fromTable"  : "Zone Sensible Cooling",
+        "fromColumn" : "User Design Load per Area [W/m2]",
+        "fromRow"    : "THERMAL ZONE 1",
+        "tableName"  : "User Design Load per Area",
+        "columnHeaders" : "User Design Load per Area [W/m2]",
+        "usedInCalc" : true
+    },
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Window-Wall Ratio",
+        "fromColumn" : "Total",
+        "fromRow"    : "Gross Window-Wall Ratio [%]",
+        "tableName"  : "Glazz Ratio",
+        "columnHeaders" : "Glazz Ratio[%]",
+        "usedInCalc" : true
+    },
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Zone Summary",
+        "fromColumn" : "Area [m2]",
+        "fromRow"    : "Total",
+        "tableName"  : "Floor Area",
+        "columnHeaders" : "Floor Area[m2]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Zone Summary",
+        "fromColumn" : "Volume [m3]",
+        "fromRow"    : "Total",
+        "tableName"  : "Volume [m3]",
+        "columnHeaders" : "Volume [m3]",
+        "usedInCalc" : true
+    },
+    {   
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Window-Wall Ratio",
+        "fromColumn" : "Total",
+        "fromRow"    : "Window Opening Area [m2]",
+        "tableName"  : "Window Opening Area [m2]",
+        "columnHeaders" : "Window Opening Area [m2]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Window-Wall Ratio",
+        "fromColumn" : "Total",
+        "fromRow"    : "Gross Wall Area [m2]",
+        "tableName"  : "Gross Wall Area [m2]",
+        "columnHeaders" : "Gross Wall Area [m2]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Window-Wall Ratio",
+        "fromColumn" : "North (315 to 45 deg)",
+        "fromRow"    : "Gross Wall Area [m2]",
+        "tableName"  : "North Wall Area [m2]",
+        "columnHeaders" : "North Wall Area [m2]",
+        "usedInCalc" : true
+    },
+    {
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Input Verification and Results Summary",
+        "fromTable"  : "Window-Wall Ratio",
+        "fromColumn" : "East (45 to 135 deg)",
+        "fromRow"    : "Gross Wall Area [m2]",
+        "tableName"  : "East Wall Area [m2]",
+        "columnHeaders" : "East Wall Area [m2]",
+        "usedInCalc" : true
+    },
+     {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Demand End Use Components Summary",
+        "fromTable"  : "End Uses",
+        "fromColumn" : "District Cooling [W]",
+        "fromRow"    : "Time of Peak",
+        "tableName"  : "Total_Peak_Cool_Time",
+        "columnHeaders" : "Peak Total Cooling Time",
+        "usedInCalc" : true
+    },
+    {
+
+        "sourceCsv"  : "eplustbl.csv",
+        "fromReport" : "Sensible Heat Gain Summary",
+        "fromTable"  : "Peak Cooling Sensible Heat Gain Components",
+        "fromColumn" : "Time of Peak {TIMESTAMP}",
+        "fromRow"    : "Total Facility",
+        "tableName"  : "Sens_Time Peak",
+        "columnHeaders" : "[time]",
+        "usedInCalc" : true
+    }  
+      
+    
+],
+"userVars" : [
+    {
+        "identifier" : "v0",
+        "formula" : "c14/c11",
+        "caption" : "Aenv/Afloor",
+        "report" : true
+    },
+    {
+        "identifier" : "v1",
+        "formula" : "c13/c11",
+        "caption" : "Aglass/Afloor",
+        "report" : true
+    },
+    {
+        "identifier" : "v2",
+        "formula" : "c12/c11",
+        "caption" : "Vol/Afloor",
+        "report" : true
+    },
+    {
+        "identifier" : "v3",
+        "formula" : "c15/c16",
+        "caption" : "North/East",
+        "report" : true
+    }
+]
+}
