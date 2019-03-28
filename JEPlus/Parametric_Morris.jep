@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.2" class="java.beans.XMLDecoder">
+ <object class="jeplus.JEPlusProject" id="JEPlusProject0">
+  <void property="DCKDir">
+   <string>../../../Softwares/jEPlus_v1.7.0_beta/</string>
+  </void>
+  <void property="IDFDir">
+   <string>IMF File_InputModel/</string>
+  </void>
+  <void property="IDFTemplate">
+   <string>Aut_IDF_MorrisMethod.imf</string>
+  </void>
+  <void property="RVIDir">
+   <string>RVX File/</string>
+  </void>
+  <void property="RVIFile">
+   <string>CLIMA_RVX_Extraction.rvx</string>
+  </void>
+  <void property="baseDir">
+   <string>D:\Simulation Results\Clima_GitHub\JEPlus Project\</string>
+  </void>
+  <void property="execSettings">
+   <void property="deleteSelectedFiles">
+    <boolean>true</boolean>
+   </void>
+   <void property="jobListFile">
+    <string>D:\Simulation Results\Clima_GitHub\JEPlus Project\JobList\JobListMorris_Total_Climate_P16_Tr_35_L6.csv</string>
+   </void>
+   <void property="keepEPlusFiles">
+    <boolean>false</boolean>
+   </void>
+   <void property="keepJEPlusFiles">
+    <boolean>false</boolean>
+   </void>
+   <void property="numThreads">
+    <int>3</int>
+   </void>
+   <void property="numberOfJobs">
+    <int>30</int>
+   </void>
+   <void property="parentDir">
+    <string>D:\Simulation Results\Clima_GitHub\Results\</string>
+   </void>
+   <void property="subSet">
+    <int>0</int>
+   </void>
+  </void>
+  <void id="DefaultMutableTreeNode0" property="paramTree">
+   <void id="ParameterItem0" property="userObject">
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Name</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Ext_Wall_Abs</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Type</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>Description</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>Absorvity of external Wall</string>
+     </void>
+    </void>
+    <void class="jeplus.data.ParameterItem" method="getField">
+     <string>SearchString</string>
+     <void method="set">
+      <object idref="ParameterItem0"/>
+      <string>@@EW_Abs@@</string>
+     </void>
+    </void>
+    <void property="selectedAltValue">
+     <int>1</int>
+    </void>
+    <void property="valuesString">
+     <string>{0.9}&amp;[0.1:0.05:0.96]</string>
+    </void>
+   </void>
+   <void method="add">
+    <object class="javax.swing.tree.DefaultMutableTreeNode">
+     <void property="userObject">
+      <object class="jeplus.data.ParameterItem" id="ParameterItem1">
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>ID</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>P2</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Name</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>SolarAbsRoof</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Type</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <int>1</int>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>Description</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>Solar Absorptance of the roof</string>
+        </void>
+       </void>
+       <void class="jeplus.data.ParameterItem" method="getField">
+        <string>SearchString</string>
+        <void method="set">
+         <object idref="ParameterItem1"/>
+         <string>@@RSolar_Abs@@</string>
+        </void>
+       </void>
+       <void property="project">
+        <object idref="JEPlusProject0"/>
+       </void>
+       <void property="selectedAltValue">
+        <int>1</int>
+       </void>
+       <void property="valuesString">
+        <string>{0.7}&amp;[0.1:0.05:0.96]</string>
+       </void>
+      </object>
+     </void>
+     <void method="add">
+      <object class="javax.swing.tree.DefaultMutableTreeNode">
+       <void property="userObject">
+        <object class="jeplus.data.ParameterItem" id="ParameterItem2">
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>ID</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>P3</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Name</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>SG_Trans</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Type</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <int>1</int>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>Description</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>Solar Transmittance</string>
+          </void>
+         </void>
+         <void class="jeplus.data.ParameterItem" method="getField">
+          <string>SearchString</string>
+          <void method="set">
+           <object idref="ParameterItem2"/>
+           <string>@@SG_Trans@@</string>
+          </void>
+         </void>
+         <void property="project">
+          <object idref="JEPlusProject0"/>
+         </void>
+         <void property="selectedAltValue">
+          <int>1</int>
+         </void>
+         <void property="valuesString">
+          <string>{0.3311}&amp;[0.05:0.02:0.45]</string>
+         </void>
+        </object>
+       </void>
+       <void method="add">
+        <object class="javax.swing.tree.DefaultMutableTreeNode">
+         <void property="userObject">
+          <object class="jeplus.data.ParameterItem" id="ParameterItem3">
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>ID</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>P4</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Name</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>TM_Concrete</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>Description</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>HeatCap_Wall_Conc</string>
+            </void>
+           </void>
+           <void class="jeplus.data.ParameterItem" method="getField">
+            <string>SearchString</string>
+            <void method="set">
+             <object idref="ParameterItem3"/>
+             <string>@@cp_w_conc@@</string>
+            </void>
+           </void>
+           <void property="project">
+            <object idref="JEPlusProject0"/>
+           </void>
+           <void property="selectedAltValue">
+            <int>1</int>
+           </void>
+           <void property="valuesString">
+            <string>{837}&amp;[400 :200 :3200 ]</string>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="javax.swing.tree.DefaultMutableTreeNode">
+           <void property="userObject">
+            <object class="jeplus.data.ParameterItem" id="ParameterItem4">
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>ID</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>P5</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Name</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>Glass_k</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Type</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <int>1</int>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>Description</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>Glazing_conductiviyt</string>
+              </void>
+             </void>
+             <void class="jeplus.data.ParameterItem" method="getField">
+              <string>SearchString</string>
+              <void method="set">
+               <object idref="ParameterItem4"/>
+               <string>@@G_k@@</string>
+              </void>
+             </void>
+             <void property="project">
+              <object idref="JEPlusProject0"/>
+             </void>
+             <void property="selectedAltValue">
+              <int>1</int>
+             </void>
+             <void property="valuesString">
+              <string>{0.0133}&amp;[0.005:0.005:0.031]</string>
+             </void>
+            </object>
+           </void>
+           <void method="add">
+            <object class="javax.swing.tree.DefaultMutableTreeNode">
+             <void property="userObject">
+              <object class="jeplus.data.ParameterItem" id="ParameterItem5">
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>ID</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>P6</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Name</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>Wall_k</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Type</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <int>1</int>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>Description</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>Wall Insulation Conductivity</string>
+                </void>
+               </void>
+               <void class="jeplus.data.ParameterItem" method="getField">
+                <string>SearchString</string>
+                <void method="set">
+                 <object idref="ParameterItem5"/>
+                 <string>@@WIns_k@@</string>
+                </void>
+               </void>
+               <void property="project">
+                <object idref="JEPlusProject0"/>
+               </void>
+               <void property="selectedAltValue">
+                <int>1</int>
+               </void>
+               <void property="valuesString">
+                <string>{0.0432}&amp;[0.015 :0.005 :0.065]</string>
+               </void>
+              </object>
+             </void>
+             <void method="add">
+              <object class="javax.swing.tree.DefaultMutableTreeNode">
+               <void property="userObject">
+                <object class="jeplus.data.ParameterItem" id="ParameterItem6">
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>ID</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>P7</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Name</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>Roof_k</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Type</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <int>1</int>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>Description</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>Roof Insulation conductivity</string>
+                  </void>
+                 </void>
+                 <void class="jeplus.data.ParameterItem" method="getField">
+                  <string>SearchString</string>
+                  <void method="set">
+                   <object idref="ParameterItem6"/>
+                   <string>@@RIns_k@@</string>
+                  </void>
+                 </void>
+                 <void property="project">
+                  <object idref="JEPlusProject0"/>
+                 </void>
+                 <void property="selectedAltValue">
+                  <int>1</int>
+                 </void>
+                 <void property="valuesString">
+                  <string>{0.049}&amp;[0.02:0.005:0.07]</string>
+                 </void>
+                </object>
+               </void>
+               <void method="add">
+                <object class="javax.swing.tree.DefaultMutableTreeNode">
+                 <void property="userObject">
+                  <object class="jeplus.data.ParameterItem" id="ParameterItem7">
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>ID</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>P8</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Name</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>EW_SAbs</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Type</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <int>1</int>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>Description</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>External Wall Solar and Vis Absorptance</string>
+                    </void>
+                   </void>
+                   <void class="jeplus.data.ParameterItem" method="getField">
+                    <string>SearchString</string>
+                    <void method="set">
+                     <object idref="ParameterItem7"/>
+                     <string>@@EW_S&amp;V_Abs@@</string>
+                    </void>
+                   </void>
+                   <void property="project">
+                    <object idref="JEPlusProject0"/>
+                   </void>
+                   <void property="selectedAltValue">
+                    <int>1</int>
+                   </void>
+                   <void property="valuesString">
+                    <string>{0.92}&amp;[0.1:0.1:0.95]&amp;{0.95,0.97}</string>
+                   </void>
+                  </object>
+                 </void>
+                 <void method="add">
+                  <object class="javax.swing.tree.DefaultMutableTreeNode">
+                   <void property="userObject">
+                    <object class="jeplus.data.ParameterItem" id="ParameterItem8">
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>ID</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>P9</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Name</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>Parameter 9</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Type</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <int>1</int>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>Description</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>Int Heat Gains</string>
+                      </void>
+                     </void>
+                     <void class="jeplus.data.ParameterItem" method="getField">
+                      <string>SearchString</string>
+                      <void method="set">
+                       <object idref="ParameterItem8"/>
+                       <string>@@IHG@@</string>
+                      </void>
+                     </void>
+                     <void property="project">
+                      <object idref="JEPlusProject0"/>
+                     </void>
+                     <void property="selectedAltValue">
+                      <int>1</int>
+                     </void>
+                     <void property="valuesString">
+                      <string>{40.}&amp;[0:10:200]&amp;{200}</string>
+                     </void>
+                    </object>
+                   </void>
+                   <void method="add">
+                    <object class="javax.swing.tree.DefaultMutableTreeNode">
+                     <void property="userObject">
+                      <object class="jeplus.data.ParameterItem" id="ParameterItem9">
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>ID</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>P10</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Name</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>Parameter 10</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Type</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <int>1</int>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>Description</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>Vent Rate</string>
+                        </void>
+                       </void>
+                       <void class="jeplus.data.ParameterItem" method="getField">
+                        <string>SearchString</string>
+                        <void method="set">
+                         <object idref="ParameterItem9"/>
+                         <string>@@V_Rate@@</string>
+                        </void>
+                       </void>
+                       <void property="project">
+                        <object idref="JEPlusProject0"/>
+                       </void>
+                       <void property="selectedAltValue">
+                        <int>1</int>
+                       </void>
+                       <void property="valuesString">
+                        <string>{0.0015}&amp;[0:0.0005:0.005] &amp; { 0.005}</string>
+                       </void>
+                      </object>
+                     </void>
+                     <void method="add">
+                      <object class="javax.swing.tree.DefaultMutableTreeNode">
+                       <void property="userObject">
+                        <object class="jeplus.data.ParameterItem" id="ParameterItem10">
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>ID</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>P11</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Name</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>Parameter 11</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Type</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <int>1</int>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>Description</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>Infiltration Rate</string>
+                          </void>
+                         </void>
+                         <void class="jeplus.data.ParameterItem" method="getField">
+                          <string>SearchString</string>
+                          <void method="set">
+                           <object idref="ParameterItem10"/>
+                           <string>@@Inf@@</string>
+                          </void>
+                         </void>
+                         <void property="project">
+                          <object idref="JEPlusProject0"/>
+                         </void>
+                         <void property="selectedAltValue">
+                          <int>1</int>
+                         </void>
+                         <void property="valuesString">
+                          <string>{0.0002}&amp;[0:0.0001 :0.001 ]&amp;{0.001}</string>
+                         </void>
+                        </object>
+                       </void>
+                       <void method="add">
+                        <object class="javax.swing.tree.DefaultMutableTreeNode">
+                         <void property="userObject">
+                          <object class="jeplus.data.ParameterItem" id="ParameterItem11">
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>ID</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>P12</string>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>Name</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>Parameter 12</string>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>Type</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <int>1</int>
+                            </void>
+                           </void>
+                           <void class="jeplus.data.ParameterItem" method="getField">
+                            <string>SearchString</string>
+                            <void method="set">
+                             <object idref="ParameterItem11"/>
+                             <string>@@C_SP@@</string>
+                            </void>
+                           </void>
+                           <void property="project">
+                            <object idref="JEPlusProject0"/>
+                           </void>
+                           <void property="selectedAltValue">
+                            <int>1</int>
+                           </void>
+                           <void property="valuesString">
+                            <string>{24}&amp;[ 18:0.25 :28 ]</string>
+                           </void>
+                          </object>
+                         </void>
+                         <void method="add">
+                          <object class="javax.swing.tree.DefaultMutableTreeNode">
+                           <void property="userObject">
+                            <object class="jeplus.data.ParameterItem" id="ParameterItem12">
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>ID</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>P13</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>Name</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>Parameter 13</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>Description</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>Rotation</string>
+                              </void>
+                             </void>
+                             <void class="jeplus.data.ParameterItem" method="getField">
+                              <string>SearchString</string>
+                              <void method="set">
+                               <object idref="ParameterItem12"/>
+                               <string>@@Rot@@</string>
+                              </void>
+                             </void>
+                             <void property="project">
+                              <object idref="JEPlusProject0"/>
+                             </void>
+                             <void property="selectedAltValue">
+                              <int>1</int>
+                             </void>
+                             <void property="valuesString">
+                              <string>[0 :45 :315 ]</string>
+                             </void>
+                            </object>
+                           </void>
+                           <void method="add">
+                            <object class="javax.swing.tree.DefaultMutableTreeNode">
+                             <void property="userObject">
+                              <object class="jeplus.data.ParameterItem" id="ParameterItem13">
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>ID</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>P14</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Name</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>Parameter 14</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Type</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <int>1</int>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>Description</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>Glazzing</string>
+                                </void>
+                               </void>
+                               <void class="jeplus.data.ParameterItem" method="getField">
+                                <string>SearchString</string>
+                                <void method="set">
+                                 <object idref="ParameterItem13"/>
+                                 <string>@@Glazz@@</string>
+                                </void>
+                               </void>
+                               <void property="project">
+                                <object idref="JEPlusProject0"/>
+                               </void>
+                               <void property="selectedAltValue">
+                                <int>1</int>
+                               </void>
+                               <void property="valuesString">
+                                <string>{0.4}&amp;[0.05 :0.1:1 ]</string>
+                               </void>
+                              </object>
+                             </void>
+                             <void method="add">
+                              <object class="javax.swing.tree.DefaultMutableTreeNode">
+                               <void property="userObject">
+                                <object class="jeplus.data.ParameterItem" id="ParameterItem14">
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>ID</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>P15</string>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>Name</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>Parameter 15</string>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>Type</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <int>1</int>
+                                  </void>
+                                 </void>
+                                 <void class="jeplus.data.ParameterItem" method="getField">
+                                  <string>SearchString</string>
+                                  <void method="set">
+                                   <object idref="ParameterItem14"/>
+                                   <string>@@Rat@@</string>
+                                  </void>
+                                 </void>
+                                 <void property="project">
+                                  <object idref="JEPlusProject0"/>
+                                 </void>
+                                 <void property="selectedAltValue">
+                                  <int>1</int>
+                                 </void>
+                                 <void property="valuesString">
+                                  <string>{1} &amp;{0.0625}&amp; [0.25 :0.75 :6.5 ]&amp;{16}</string>
+                                 </void>
+                                </object>
+                               </void>
+                               <void method="add">
+                                <object class="javax.swing.tree.DefaultMutableTreeNode">
+                                 <void property="userObject">
+                                  <object class="jeplus.data.ParameterItem" id="ParameterItem15">
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>ID</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>P16</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Name</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>Parameter 16</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Type</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <int>1</int>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>Description</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>RA</string>
+                                    </void>
+                                   </void>
+                                   <void class="jeplus.data.ParameterItem" method="getField">
+                                    <string>SearchString</string>
+                                    <void method="set">
+                                     <object idref="ParameterItem15"/>
+                                     <string>@@RA@@</string>
+                                    </void>
+                                   </void>
+                                   <void property="project">
+                                    <object idref="JEPlusProject0"/>
+                                   </void>
+                                   <void property="selectedAltValue">
+                                    <int>1</int>
+                                   </void>
+                                   <void property="valuesString">
+                                    <string>{1} &amp; { 0.05, 0.1 ,0.5 ,2 , 8,16  </string>
+                                   </void>
+                                  </object>
+                                 </void>
+                                </object>
+                               </void>
+                              </object>
+                             </void>
+                            </object>
+                           </void>
+                          </object>
+                         </void>
+                        </object>
+                       </void>
+                      </object>
+                     </void>
+                    </object>
+                   </void>
+                  </object>
+                 </void>
+                </object>
+               </void>
+              </object>
+             </void>
+            </object>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="parameters">
+   <void method="add">
+    <object idref="ParameterItem1"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem2"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem3"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem4"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem5"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem6"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem7"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem8"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem9"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem10"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem11"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem12"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem13"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem14"/>
+   </void>
+   <void method="add">
+    <object idref="ParameterItem15"/>
+   </void>
+  </void>
+  <void property="rvx">
+   <object class="jeplus.data.RVX">
+    <void property="CSVs">
+     <array class="jeplus.data.RVX_CSVitem" length="19">
+      <void index="0">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Total cooling Annual Value [kWh]</string>
+        </void>
+        <void property="fromColumn">
+         <string>District Cooling [kWh]</string>
+        </void>
+        <void property="fromReport">
+         <string>Annual Building Utility Performance Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Cooling</string>
+        </void>
+        <void property="fromTable">
+         <string>End Uses</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Total_Cooling Demand</string>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Total cooling Annual Value [kWh/m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>District Cooling Intensity [kWh/m2]</string>
+        </void>
+        <void property="fromReport">
+         <string>Annual Building Utility Performance Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>HVAC</string>
+        </void>
+        <void property="fromTable">
+         <string>Utility Use Per Total Floor Area</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Total_Cool_ED/Area</string>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Peak Total Cooling [W]</string>
+        </void>
+        <void property="fromColumn">
+         <string>District Cooling [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>Demand End Use Components Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Cooling</string>
+        </void>
+        <void property="fromTable">
+         <string>End Uses</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Total_Peak_Cool</string>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Sens_Cooling Annual [kWh]</string>
+        </void>
+        <void property="fromColumn">
+         <string>HVAC Zone Eq &amp; Other Sensible Air Cooling [kWh]</string>
+        </void>
+        <void property="fromReport">
+         <string>Sensible Heat Gain Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Total Facility</string>
+        </void>
+        <void property="fromTable">
+         <string>Annual Building Sensible Heat Gain Components</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Sens_Cool_ED</string>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>[W]</string>
+        </void>
+        <void property="fromColumn">
+         <string>HVAC Zone Eq &amp; Other Sensible Air Cooling [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>Sensible Heat Gain Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Total Facility</string>
+        </void>
+        <void property="fromTable">
+         <string>Peak Cooling Sensible Heat Gain Components</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Sens_Cool_Peak</string>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>[W]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Cooling Maximum Value [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>Energy Meters</string>
+        </void>
+        <void property="fromRow">
+         <string>Cooling:DistrictCooling</string>
+        </void>
+        <void property="fromTable">
+         <string>Annual and Peak Values - Cooling</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>DC_Fac_Peak</string>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>[kWh]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Cooling Annual Value [kWh]</string>
+        </void>
+        <void property="fromReport">
+         <string>Energy Meters</string>
+        </void>
+        <void property="fromRow">
+         <string>Cooling:DistrictCooling</string>
+        </void>
+        <void property="fromTable">
+         <string>Annual and Peak Values - Cooling</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>DC_Fac_ED</string>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Calc Des Load [W]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Calculated Design Load [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>HVAC Sizing Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>THERMAL ZONE 1</string>
+        </void>
+        <void property="fromTable">
+         <string>Zone Sensible Cooling</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Calc Des Load</string>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>User Design Load [W]</string>
+        </void>
+        <void property="fromColumn">
+         <string>User Design Load [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>HVAC Sizing Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>THERMAL ZONE 1</string>
+        </void>
+        <void property="fromTable">
+         <string>Zone Sensible Cooling</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>User Design Load [W]</string>
+        </void>
+       </object>
+      </void>
+      <void index="9">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>User Design Load per Area [W/m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>User Design Load per Area [W/m2]</string>
+        </void>
+        <void property="fromReport">
+         <string>HVAC Sizing Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>THERMAL ZONE 1</string>
+        </void>
+        <void property="fromTable">
+         <string>Zone Sensible Cooling</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>User Design Load per Area</string>
+        </void>
+       </object>
+      </void>
+      <void index="10">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Glazz Ratio[%]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Total</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Gross Window-Wall Ratio [%]</string>
+        </void>
+        <void property="fromTable">
+         <string>Window-Wall Ratio</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Glazz Ratio</string>
+        </void>
+       </object>
+      </void>
+      <void index="11">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Floor Area[m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Area [m2]</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Total</string>
+        </void>
+        <void property="fromTable">
+         <string>Zone Summary</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Floor Area</string>
+        </void>
+       </object>
+      </void>
+      <void index="12">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Volume [m3]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Volume [m3]</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Total</string>
+        </void>
+        <void property="fromTable">
+         <string>Zone Summary</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Volume [m3]</string>
+        </void>
+       </object>
+      </void>
+      <void index="13">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Window Opening Area [m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Total</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Window Opening Area [m2]</string>
+        </void>
+        <void property="fromTable">
+         <string>Window-Wall Ratio</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Window Opening Area [m2]</string>
+        </void>
+       </object>
+      </void>
+      <void index="14">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Gross Wall Area [m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Total</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Gross Wall Area [m2]</string>
+        </void>
+        <void property="fromTable">
+         <string>Window-Wall Ratio</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Gross Wall Area [m2]</string>
+        </void>
+       </object>
+      </void>
+      <void index="15">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>North Wall Area [m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>North (315 to 45 deg)</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Gross Wall Area [m2]</string>
+        </void>
+        <void property="fromTable">
+         <string>Window-Wall Ratio</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>North Wall Area [m2]</string>
+        </void>
+       </object>
+      </void>
+      <void index="16">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>East Wall Area [m2]</string>
+        </void>
+        <void property="fromColumn">
+         <string>East (45 to 135 deg)</string>
+        </void>
+        <void property="fromReport">
+         <string>Input Verification and Results Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Gross Wall Area [m2]</string>
+        </void>
+        <void property="fromTable">
+         <string>Window-Wall Ratio</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>East Wall Area [m2]</string>
+        </void>
+       </object>
+      </void>
+      <void index="17">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>Peak Total Cooling Time</string>
+        </void>
+        <void property="fromColumn">
+         <string>District Cooling [W]</string>
+        </void>
+        <void property="fromReport">
+         <string>Demand End Use Components Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Time of Peak</string>
+        </void>
+        <void property="fromTable">
+         <string>End Uses</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Total_Peak_Cool_Time</string>
+        </void>
+       </object>
+      </void>
+      <void index="18">
+       <object class="jeplus.data.RVX_CSVitem">
+        <void property="columnHeaders">
+         <string>[time]</string>
+        </void>
+        <void property="fromColumn">
+         <string>Time of Peak {TIMESTAMP}</string>
+        </void>
+        <void property="fromReport">
+         <string>Sensible Heat Gain Summary</string>
+        </void>
+        <void property="fromRow">
+         <string>Total Facility</string>
+        </void>
+        <void property="fromTable">
+         <string>Peak Cooling Sensible Heat Gain Components</string>
+        </void>
+        <void property="sourceCsv">
+         <string>eplustbl.csv</string>
+        </void>
+        <void property="tableName">
+         <string>Sens_Time Peak</string>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void property="notes">
+     <string>c0</string>
+    </void>
+    <void property="userVars">
+     <array class="jeplus.data.RVX_UserVar" length="4">
+      <void index="0">
+       <object class="jeplus.data.RVX_UserVar">
+        <void property="caption">
+         <string>Aenv/Afloor</string>
+        </void>
+        <void property="formula">
+         <string>c14/c11</string>
+        </void>
+        <void property="identifier">
+         <string>v0</string>
+        </void>
+        <void property="report">
+         <boolean>true</boolean>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="jeplus.data.RVX_UserVar">
+        <void property="caption">
+         <string>Aglass/Afloor</string>
+        </void>
+        <void property="formula">
+         <string>c13/c11</string>
+        </void>
+        <void property="report">
+         <boolean>true</boolean>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="jeplus.data.RVX_UserVar">
+        <void property="caption">
+         <string>Vol/Afloor</string>
+        </void>
+        <void property="formula">
+         <string>c12/c11</string>
+        </void>
+        <void property="identifier">
+         <string>v2</string>
+        </void>
+        <void property="report">
+         <boolean>true</boolean>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="jeplus.data.RVX_UserVar">
+        <void property="caption">
+         <string>North/East</string>
+        </void>
+        <void property="formula">
+         <string>c15/c16</string>
+        </void>
+        <void property="identifier">
+         <string>v3</string>
+        </void>
+        <void property="report">
+         <boolean>true</boolean>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </object>
+  </void>
+  <void property="weatherDir">
+   <string>Weather Files/</string>
+  </void>
+  <void property="weatherFile">
+   <string>2080_Manchester_a1b_90_percentile_TRY.epw; 2080_Manchester_a1fi_10_percentile_TRY.epw; 2080_Manchester_a1fi_50_percentile_TRY.epw; 2080_Manchester_a1fi_90_percentile_TRY.epw; cntr_Manchester_TRY.epw</string>
+  </void>
+ </object>
+</java>
